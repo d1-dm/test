@@ -1,25 +1,25 @@
 /* Set the idle overlay to transparent white */
-.jwplayer.jw-skin-alaska.jw-state-idle .jw-controls {
+.jwplayer.skin-alaska.state-idle .controls {
   background: rgba(255, 255, 255, .7);
 }
 
 /* Hide titles on complete */
-.jwplayer.jw-skin-alaska.jw-state-complete .jw-title .jw-title-primary,
-.jwplayer.jw-skin-alaska.jw-state-complete .jw-title .jw-title-secondary {
+.jwplayer.skin-alaska.state-complete .title .title-primary,
+.jwplayer.skin-alaska.state-complete .title .title-secondary {
   display: none;
 }
 
 /* Round, white play & restart buttons with black icons */
-.jwplayer.jw-skin-alaska .jw-display-controls .jw-display-icon-container,
-.jwplayer.jw-skin-alaska .jw-display-controls .jw-display-icon-container {
+.jwplayer.skin-alaska .display-controls .display-icon-container,
+.jwplayer.skin-alaska .display-controls .display-icon-container {
   background-color: white;
   border-radius: 50%;
   width: 100px;
   height: 100px;
 }
 
-.jwplayer.jw-skin-alaska .jw-display-controls .jw-display-icon-container .jw-icon,
-.jwplayer.jw-skin-alaska .jw-display-controls .jw-display-icon-container .jw-icon {
+.jwplayer.skin-alaska .display-controls .display-icon-container .icon,
+.jwplayer.skin-alaska .display-controls .display-icon-container .icon {
   color: #1E1E1E;
   width: 60px;
   height: 60px;
@@ -27,7 +27,7 @@
 }
 
 /* Change play button colors on idle state, handle hover transitions */
-.jwplayer.jw-skin-alaska.jw-state-idle .jw-display-controls .jw-display-icon-container {
+.jwplayer.skin-alaska.state-idle .display-controls .display-icon-container {
   background-color: #e5322c;
   height: 80px;
   width: 80px;
@@ -35,7 +35,7 @@
   transition: transform 0.35s;
 }
 
-.jwplayer.jw-skin-alaska.jw-state-idle .jw-display-controls .jw-display-icon-container .jw-icon {
+.jwplayer.skin-alaska.state-idle .display-controls .display-icon-container .icon {
   color: #fff;
   height: 40px;
   width: 40px;
@@ -44,47 +44,47 @@
 
 
 /* Shrink play button on smaller breakpoints */
-.jwplayer.jw-skin-alaska.jw-state-idle.jw-breakpoint-3 .jw-display-controls .jw-display-icon-container,
-.jwplayer.jw-skin-alaska.jw-state-idle.jw-breakpoint-2 .jw-display-controls .jw-display-icon-container  {
+.jwplayer.skin-alaska.state-idle.breakpoint-3 .display-controls .display-icon-container,
+.jwplayer.skin-alaska.state-idle.breakpoint-2 .display-controls .display-icon-container  {
   height: 60px;
   width: 60px;
 }
 
-.jwplayer.jw-skin-alaska.jw-state-idle.jw-breakpoint-1 .jw-display-controls .jw-display-icon-container,
-.jwplayer.jw-skin-alaska.jw-state-idle.jw-breakpoint-0 .jw-display-controls .jw-display-icon-container {
+.jwplayer.skin-alaska.state-idle.breakpoint-1 .display-controls .display-icon-container,
+.jwplayer.skin-alaska.state-idle.breakpoint-0 .display-controls .display-icon-container {
   height: 40px;
   width: 40px;
 }
 
-.jwplayer.jw-skin-alaska.jw-state-idle.jw-breakpoint-3 .jw-display-controls .jw-display-icon-container .jw-icon,
-.jwplayer.jw-skin-alaska.jw-state-idle.jw-breakpoint-2 .jw-display-controls .jw-display-icon-container .jw-icon {
+.jwplayer.skin-alaska.state-idle.breakpoint-3 .display-controls .display-icon-container .icon,
+.jwplayer.skin-alaska.state-idle.breakpoint-2 .display-controls .display-icon-container .icon {
   height: 40px;
   width: 40px;
   padding: 10px;
 }
 
-.jwplayer.jw-skin-alaska.jw-state-idle.jw-breakpoint-1 .jw-display-controls .jw-display-icon-container .jw-icon,
-.jwplayer.jw-skin-alaska.jw-state-idle.jw-breakpoint-0 .jw-display-controls .jw-display-icon-container .jw-icon {
+.jwplayer.skin-alaska.state-idle.breakpoint-1 .display-controls .display-icon-container .icon,
+.jwplayer.skin-alaska.state-idle.breakpoint-0 .display-controls .display-icon-container .icon {
   height: 20px;
   width: 20px;
   padding: 10px;
 }
 
-.jwplayer.jw-skin-alaska.jw-state-idle .jw-display-controls .jw-display-icon-container:hover {
+.jwplayer.skin-alaska.state-idle .display-controls .display-icon-container:hover {
    background-color: #92DCE5;
 }
 
-.jwplayer.jw-skin-alaska.jw-state-idle .jw-display-controls .jw-display-icon-container .jw-icon:hover {
+.jwplayer.skin-alaska.state-idle .display-controls .display-icon-container .icon:hover {
   color: #fff;
 }
 
-.jwplayer.jw-skin-alaska.jw-state-paused .jw-controls {
+.jwplayer.skin-alaska.state-paused .controls {
   background-color: rgba(147, 221, 230, .3);
 }
 
 
 /* Customize font style and positioning for titles */
-.jwplayer.jw-skin-alaska.jw-state-idle .jw-title {
+.jwplayer.skin-alaska.state-idle .title {
   height: 100%;
   display: flex;
   justify-content: center;
@@ -93,7 +93,7 @@
 }
 
 /* Apply new styles to video title and description, handle transitions */
-.jwplayer.jw-skin-alaska .jw-title-primary {
+.jwplayer.skin-alaska .title-primary {
   font-size: 48px;
   padding: 30px;
   color: #1E1E1E;
@@ -107,7 +107,7 @@
 }
 
 /* Apple new styles to video description */
-.jwplayer.jw-skin-alaska .jw-title-secondary {
+.jwplayer.skin-alaska .title-secondary {
   font-size: 18px;
   max-width: 70%;
   font-weight: 500;
@@ -127,120 +127,120 @@
 }
 
 /* Decrease font size on medium-small breakpoints */
-.jwplayer.jw-skin-alaska.jw-breakpoint-3 .jw-title-primary,
-.jwplayer.jw-skin-alaska.jw-breakpoint-2 .jw-title-primary,
-.jwplayer.jw-skin-alaska.jw-breakpoint-1 .jw-title-primary,
-.jwplayer.jw-skin-alaska.jw-breakpoint-0 .jw-title-primary {
+.jwplayer.skin-alaska.breakpoint-3 .title-primary,
+.jwplayer.skin-alaska.breakpoint-2 .title-primary,
+.jwplayer.skin-alaska.breakpoint-1 .title-primary,
+.jwplayer.skin-alaska.breakpoint-0 .title-primary {
   font-size: 22px;
 }
 
-.jwplayer.jw-skin-alaska.jw-breakpoint-3 .jw-title-secondary,
-.jwplayer.jw-skin-alaska.jw-breakpoint-2 .jw-title-secondary {
+.jwplayer.skin-alaska.breakpoint-3 .title-secondary,
+.jwplayer.skin-alaska.breakpoint-2 .title-secondary {
   font-size: 14px;
 }
 
 /* Hide the description on smallest breakpoints */
-.jwplayer.jw-skin-alaska.jw-breakpoint-1 .jw-title-secondary,
-.jwplayer.jw-skin-alaska.jw-breakpoint-0 .jw-title-secondary {
+.jwplayer.skin-alaska.breakpoint-1 .title-secondary,
+.jwplayer.skin-alaska.breakpoint-0 .title-secondary {
   display: none;
 }
 
 /* Change colors and remove gradient shadow for control bar, change icon color on pause */
-.jwplayer.jw-skin-alaska .jw-display {
+.jwplayer.skin-alaska .display {
   padding-bottom: 45px;
 }
 
-.jwplayer.jw-skin-alaska .jw-controlbar {
+.jwplayer.skin-alaska .controlbar {
   background-color: #fff;
 }
 
-.jwplayer.jw-skin-alaska .jw-controlbar .jw-button-container .jw-button-color {
+.jwplayer.skin-alaska .controlbar .button-container .button-color {
   color: #1E1E1E;
 }
 
-.jwplayer.jw-skin-alaska.jw-state-paused .jw-controlbar .jw-button-container .jw-button-color {
+.jwplayer.skin-alaska.state-paused .controlbar .button-container .button-color {
   color: #e5322c;
 }
 
-.jwplayer.jw-skin-alaska .jw-controlbar .jw-button-container .jw-button-color:hover {
+.jwplayer.skin-alaska .controlbar .button-container .button-color:hover {
   color: #92DCE5;
 }
 
 
 /* Move tooltips closer to control bar with inline timeslider, change colors, round corners, remove shadow */
-.jwplayer.jw-skin-alaska .jw-controlbar .jw-tooltip {
+.jwplayer.skin-alaska .controlbar .tooltip {
   bottom: 70%;
   box-shadow: none;
 }
 
-.jwplayer.jw-skin-alaska .jw-controlbar .jw-tooltip.jw-open {
+.jwplayer.skin-alaska .controlbar .tooltip.open {
   border-radius: 5px;
   color: #92DCE5;
 }
 
-.jwplayer.jw-skin-alaska .jw-controlbar .jw-tooltip .jw-text {
+.jwplayer.skin-alaska .controlbar .tooltip .text {
   background-color: #92DCE5;
   border-radius: 5px;
   border: 0;
 }
 
-.jwplayer.jw-skin-alaska .jw-controlbar .jw-text {
+.jwplayer.skin-alaska .controlbar .text {
   color: #1E1E1E;
 }
 
-.jwplayer.jw-skin-alaska .jw-volume-tip,
-.jwplayer.jw-skin-alaska .jw-time-tip {
+.jwplayer.skin-alaska .volume-tip,
+.jwplayer.skin-alaska .time-tip {
   padding-bottom: 0;
 }
 
 
 /* Customize colors of volume control knob */
-.jwplayer.jw-skin-alaska .jw-overlay .jw-slider-volume .jw-slider-container .jw-knob {
+.jwplayer.skin-alaska .overlay .slider-volume .slider-container .knob {
   background-color: #e5322c;
 }
 
 
 /* Customize colors of timeslider */
-.jwplayer.jw-skin-alaska .jw-controlbar .jw-slider-time .jw-slider-container .jw-rail {
+.jwplayer.skin-alaska .controlbar .slider-time .slider-container .rail {
   background-color: #1E1E1E;
 }
 
-.jwplayer.jw-skin-alaska .jw-controlbar .jw-slider-time .jw-slider-container .jw-buffer {
+.jwplayer.skin-alaska .controlbar .slider-time .slider-container .buffer {
   background-color: #92DCE5;
 }
 
-.jwplayer.jw-skin-alaska .jw-controlbar .jw-slider-time .jw-slider-container .jw-progress {
+.jwplayer.skin-alaska .controlbar .slider-time .slider-container .progress {
   background-color: #e5322c;
 }
 
-.jwplayer.jw-skin-alaska .jw-controlbar .jw-slider-time .jw-slider-container .jw-knob {
+.jwplayer.skin-alaska .controlbar .slider-time .slider-container .knob {
   background-color: #e5322c;
 }
 
 
 /* Customize colors/opacity of the settings menu */
-.jwplayer.jw-skin-alaska .jw-settings-menu {
+.jwplayer.skin-alaska .settings-menu {
   background-color: transparent;
 }
 
-.jwplayer.jw-skin-alaska .jw-settings-menu .jw-settings-topbar {
+.jwplayer.skin-alaska .settings-menu .settings-topbar {
   background-color: #92DCE5;
 }
 
-.jwplayer.jw-skin-alaska .jw-settings-menu .jw-settings-topbar .jw-icon:hover {
+.jwplayer.skin-alaska .settings-menu .settings-topbar .icon:hover {
   color: #1E1E1E;
 }
 
-.jwplayer.jw-skin-alaska .jw-settings-menu .jw-settings-submenu {
+.jwplayer.skin-alaska .settings-menu .settings-submenu {
   background-color: rgba(255, 255, 255, .65);
 }
 
-.jwplayer.jw-skin-alaska .jw-settings-menu .jw-settings-content-item {
+.jwplayer.skin-alaska .settings-menu .settings-content-item {
   color: #1E1E1E;
 }
 
-.jwplayer.jw-skin-alaska .jw-settings-menu .jw-settings-content-item:hover,
-.jwplayer.jw-skin-alaska .jw-settings-menu .jw-settings-item-active {
+.jwplayer.skin-alaska .settings-menu .settings-content-item:hover,
+.jwplayer.skin-alaska .settings-menu .settings-item-active {
   color: #e5322c;
   font-weight: bold;
 }
